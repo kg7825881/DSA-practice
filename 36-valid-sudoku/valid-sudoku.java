@@ -28,7 +28,7 @@ class Solution {
 
         int nr = 0;
         int nc = 0;
-        if(col != board.length - 1){
+        if(col != board[0].length - 1){
             nr = row;
             nc = col + 1;
         } else {
